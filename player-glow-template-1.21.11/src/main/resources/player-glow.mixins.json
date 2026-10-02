@@ -1,0 +1,12 @@
+{
+	"required": true,
+	"package": "com.playerglow.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"client": [
+		"EntityRendererMixin",
+		"EntityMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

@@ -1,0 +1,27 @@
+{
+	"schemaVersion": 1,
+	"id": "playerglow",
+	"version": "1.0.1",
+	"name": "PlayerGlow",
+	"description": "Optimizes the visual effect of playerglow so as to reduce the fps loss",
+	"authors": [
+		"Nerd Cyaawnwn"
+	],
+	"environment": "client",
+
+	"entrypoints": {
+		"client": [
+			"com.playerglow.PlayerGlow"
+		]
+	},
+
+	"mixins": [
+		"player-glow.mixins.json"
+	],
+
+	"depends": {
+		"fabricloader": ">=0.18.0",
+		"minecraft": "~1.21.11",
+		"fabric-api": "*"
+	}
+}
